@@ -1,0 +1,103 @@
+/* Extra small screens */
+@media screen and (width <= 640px){
+    .container{
+        width: 90% !important;
+    }
+    .dropdown-submenu .dropdown-menu {
+        position: absolute;
+        left: 0;
+        width: 100%;
+    }
+    .hero-section .texet h1 {
+        font-size: 35px;
+        text-wrap: nowrap;
+    }
+    .hero-section > div >p{
+        font-size: 18px;
+    }
+
+    .carousel-caption {
+        top: 110px;
+    }
+    .carousel-indicators{
+        bottom: -40px;
+    }
+    .contact .container{
+        width: 90%;
+    }
+
+}
+
+
+
+
+/* Small screens */
+@media screen and (640px < width <= 768px){
+
+    .hero-section .texet h1 {
+        font-size: 45px;
+        text-wrap: nowrap;
+    }
+    .hero-section > div >p{
+        font-size: 19px;
+    }
+    .carousel-caption {
+        top: 110px;
+    }
+    .carousel-indicators{
+        bottom: -40px;
+    }
+    
+    
+}
+
+
+
+
+/* med screens */
+@media screen and (768px < width <= 1024px){
+    .hero-section .texet h1 {
+        font-size: 50px;
+        text-wrap: nowrap;
+    }
+    .hero-section > div >p{
+        font-size: 20px;
+    }
+    .carousel-caption {
+        top: 110px;
+    }
+    .carousel-indicators{
+        bottom: -40px;
+    }
+}
+
+
+/* large screens */
+@media screen and (1024px < width <= 1280px){
+    .hero-section .texet h1 {
+        font-size: 50px;
+        text-wrap: nowrap;
+    }
+    .hero-section > div >p{
+        font-size: 22px;
+    }
+    .carousel-caption {
+        top: 110px;
+    }
+    .carousel-indicators{
+        bottom: -40px;
+    }
+    
+}
+
+
+
+
+
+/* Extra large screens */
+@media screen and (1280px < width <= 1536px){
+    
+    
+
+}
+

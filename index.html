@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/media.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 my-5 ">
+                    <h1 class="fw-bold text-center">Bookmarker</h1>
+                    <div class="contant my-5 py-3">
+                        <h2 class="text-center">Bookmark your favorite
+                            sites</h2>
+                        <div class="site-name py-4">
+                            <label class="fs-6 p-1 ps-2 fw-bold" for="siteName">SiteName</label>
+                            <input id="siteName" class="form-control" type="text"
+                                placeholder="Bookmark Name">
+                        </div>
+                        <div class="site-url">
+                            <label class="fs-6 p-1 ps-2 fw-bold" for="siteUrl">SiteURL</label>
+                            <input id="siteUrl" class="form-control" type="url"
+                                placeholder="Bookmark Name">
+                        </div>
+                        <button onclick="addSite()"
+                            class="btn btn-danger my-4 px-4 py-2 d-block m-auto text-center" id="btnSubmit">Submit</button>
+                    </div>
+                    <table class="table w-100 text-center">
+                        <thead>
+                            <tr >
+                                <th scope="col">index</th>
+                                <th scope="col">Website Name</th>
+                                <th scope="col">Visit</th>
+                                <th scope="col">Delete</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
